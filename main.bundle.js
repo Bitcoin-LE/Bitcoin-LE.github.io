@@ -80,6 +80,7 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ble_community_ble_community_component__ = __webpack_require__("./src/app/ble-community/ble-community.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__page_landing_page_landing_component__ = __webpack_require__("./src/app/page-landing/page-landing.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__page_legal_page_legal_component__ = __webpack_require__("./src/app/page-legal/page-legal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__page_metronomes_page_metronomes_component__ = __webpack_require__("./src/app/page-metronomes/page-metronomes.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -99,8 +100,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var appRoutes = [
     { path: '', component: __WEBPACK_IMPORTED_MODULE_11__page_landing_page_landing_component__["a" /* PageLandingComponent */] },
+    { path: 'metronomes', component: __WEBPACK_IMPORTED_MODULE_13__page_metronomes_page_metronomes_component__["a" /* PageMetronomesComponent */] },
     { path: 'legal', component: __WEBPACK_IMPORTED_MODULE_12__page_legal_page_legal_component__["a" /* PageLegalComponent */] } /*,
     { path: '**', component: PageNotFoundComponent } */
 ];
@@ -119,7 +122,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_9__ble_downloads_ble_downloads_component__["a" /* BleDownloadsComponent */],
                 __WEBPACK_IMPORTED_MODULE_10__ble_community_ble_community_component__["a" /* BleCommunityComponent */],
                 __WEBPACK_IMPORTED_MODULE_11__page_landing_page_landing_component__["a" /* PageLandingComponent */],
-                __WEBPACK_IMPORTED_MODULE_12__page_legal_page_legal_component__["a" /* PageLegalComponent */]
+                __WEBPACK_IMPORTED_MODULE_12__page_legal_page_legal_component__["a" /* PageLegalComponent */],
+                __WEBPACK_IMPORTED_MODULE_13__page_metronomes_page_metronomes_component__["a" /* PageMetronomesComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -646,6 +650,56 @@ var PageLegalComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], PageLegalComponent);
     return PageLegalComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/page-metronomes/page-metronomes.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".metronomes-content {\r\n  padding: 150px;\r\n  padding-top: 25px;\r\n}\r\n"
+
+/***/ }),
+
+/***/ "./src/app/page-metronomes/page-metronomes.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"legal-content\" class=\"metronomes-content\">\n  <h2>BitcoinLE</h2>\n  <h1>Public Metronomes</h1>\n  <p style=\"font-size: 16px;\">\n    <br />\n    <strong>Warning!</strong>\n  </p>\n  <p>\n    For security reasons, the list of public metronomes has been unpublished. <br/>\n    A popular metronome owner could gain unfair advantage against other miners. <br/>\n    That is why we recommend all Bitcoin LE users to have their own private metronome instance running locally.\n  </p>\n  <p>\n\n  </p>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/page-metronomes/page-metronomes.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PageMetronomesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PageMetronomesComponent = /** @class */ (function () {
+    function PageMetronomesComponent() {
+    }
+    PageMetronomesComponent.prototype.ngOnInit = function () {
+    };
+    PageMetronomesComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-page-metronomes',
+            template: __webpack_require__("./src/app/page-metronomes/page-metronomes.component.html"),
+            styles: [__webpack_require__("./src/app/page-metronomes/page-metronomes.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PageMetronomesComponent);
+    return PageMetronomesComponent;
 }());
 
 
