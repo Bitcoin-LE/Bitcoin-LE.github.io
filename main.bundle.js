@@ -201,7 +201,7 @@ module.exports = "a {\r\n  width: 200px;\r\n}\r\n"
 /***/ "./src/app/ble-downloads/ble-downloads.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Token Distribution -->\n<section class=\"distri drk padding-top-150 padding-bottom-150 \" id=\"downloads\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"\" style=\"width: 100%\">\n        <div class=\"container text-center\">\n          <h1>Download the Future Now </h1>\n          <p>By installing our wallet you will be able to receive and send Bitcoin LE to anyone in the world.</p>\n          <p>Help support Bitcoin LE network and earn extra coins by downloading our miner.</p>\n          <p style=\"height: 1px;\">&nbsp;</p>\n          <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.15.1\" class=\"btn\" target=\"_blank\">Download Miner</a>\n          <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.15.1\" class=\"btn btn-inverse\" target=\"_blank\">Download Wallet</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
+module.exports = "<!-- Token Distribution -->\n<section class=\"distri drk padding-top-150 padding-bottom-150 \" id=\"downloads\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"\" style=\"width: 100%\">\n        <div class=\"container text-center\">\n          <h1>Download the Future Now </h1>\n          <p>By installing our wallet you will be able to receive and send Bitcoin LE to anyone in the world.</p>\n          <p>Help support Bitcoin LE network and earn extra coins by downloading our miner.</p>\n          <p style=\"height: 1px;\">&nbsp;</p>\n          <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.15.4\" class=\"btn\" target=\"_blank\">Download Miner</a>\n          <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.15.4\" class=\"btn btn-inverse\" target=\"_blank\">Download Wallet</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
 
 /***/ }),
 
@@ -251,7 +251,7 @@ module.exports = "footer {\r\n  background: #0b0c22;\r\n  padding: 0px 0;\r\n  p
 /***/ "./src/app/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Footer -->\n<footer id=\"contact\">\n  <!-- Rights -->\n  <div class=\"rights\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-md-6\">\n          <p>&copy; 2018 Bitcoin LE. All Rights Reserved.</p>\n        </div>\n        <div class=\"col-md-6 text-right\">\n          <a routerLink=\"/legal\" target=\"_blank\">Terms &amp; Conditions </a>\n        </div>\n      </div>\n    </div>\n  </div>\n</footer>\n"
+module.exports = "<!-- Footer -->\n<footer id=\"contact\">\n  <!-- Rights -->\n  <div class=\"rights\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-md-6\">\n          <p>&copy; 2018 Bitcoin LE. All Rights Reserved.</p>\n        </div>\n        <div class=\"col-md-6 text-right\">\n          <a href=\"https://twitter.com/bitcoin_le\" target=\"_blank\">Twitter </a>\n          <a href=\"https://discord.gg/WysepBf\" target=\"_blank\">Discord </a>\n          <a routerLink=\"/legal\" target=\"_blank\">Terms &amp; Conditions </a>\n        </div>\n      </div>\n    </div>\n  </div>\n</footer>\n"
 
 /***/ }),
 
