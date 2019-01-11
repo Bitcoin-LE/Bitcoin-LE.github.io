@@ -78,9 +78,10 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__why_ble_why_ble_component__ = __webpack_require__("./src/app/why-ble/why-ble.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ble_downloads_ble_downloads_component__ = __webpack_require__("./src/app/ble-downloads/ble-downloads.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ble_community_ble_community_component__ = __webpack_require__("./src/app/ble-community/ble-community.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__page_landing_page_landing_component__ = __webpack_require__("./src/app/page-landing/page-landing.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__page_legal_page_legal_component__ = __webpack_require__("./src/app/page-legal/page-legal.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__page_metronomes_page_metronomes_component__ = __webpack_require__("./src/app/page-metronomes/page-metronomes.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ble_links_ble_links_component__ = __webpack_require__("./src/app/ble-links/ble-links.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__page_landing_page_landing_component__ = __webpack_require__("./src/app/page-landing/page-landing.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__page_legal_page_legal_component__ = __webpack_require__("./src/app/page-legal/page-legal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__page_metronomes_page_metronomes_component__ = __webpack_require__("./src/app/page-metronomes/page-metronomes.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -101,10 +102,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var appRoutes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_11__page_landing_page_landing_component__["a" /* PageLandingComponent */] },
-    { path: 'metronomes', component: __WEBPACK_IMPORTED_MODULE_13__page_metronomes_page_metronomes_component__["a" /* PageMetronomesComponent */] },
-    { path: 'legal', component: __WEBPACK_IMPORTED_MODULE_12__page_legal_page_legal_component__["a" /* PageLegalComponent */] } /*,
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_12__page_landing_page_landing_component__["a" /* PageLandingComponent */] },
+    { path: 'metronomes', component: __WEBPACK_IMPORTED_MODULE_14__page_metronomes_page_metronomes_component__["a" /* PageMetronomesComponent */] },
+    { path: 'legal', component: __WEBPACK_IMPORTED_MODULE_13__page_legal_page_legal_component__["a" /* PageLegalComponent */] } /*,
     { path: '**', component: PageNotFoundComponent } */
 ];
 var AppModule = /** @class */ (function () {
@@ -121,9 +123,10 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_8__why_ble_why_ble_component__["a" /* WhyBleComponent */],
                 __WEBPACK_IMPORTED_MODULE_9__ble_downloads_ble_downloads_component__["a" /* BleDownloadsComponent */],
                 __WEBPACK_IMPORTED_MODULE_10__ble_community_ble_community_component__["a" /* BleCommunityComponent */],
-                __WEBPACK_IMPORTED_MODULE_11__page_landing_page_landing_component__["a" /* PageLandingComponent */],
-                __WEBPACK_IMPORTED_MODULE_12__page_legal_page_legal_component__["a" /* PageLegalComponent */],
-                __WEBPACK_IMPORTED_MODULE_13__page_metronomes_page_metronomes_component__["a" /* PageMetronomesComponent */]
+                __WEBPACK_IMPORTED_MODULE_11__ble_links_ble_links_component__["a" /* BleLinksComponent */],
+                __WEBPACK_IMPORTED_MODULE_12__page_landing_page_landing_component__["a" /* PageLandingComponent */],
+                __WEBPACK_IMPORTED_MODULE_13__page_legal_page_legal_component__["a" /* PageLegalComponent */],
+                __WEBPACK_IMPORTED_MODULE_14__page_metronomes_page_metronomes_component__["a" /* PageMetronomesComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -151,7 +154,7 @@ module.exports = "\r\na {\r\n  width: 250px;\r\n}\r\n"
 /***/ "./src/app/ble-community/ble-community.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Development -->\n<section class=\"dev-activ text-center padding-top-150 padding-bottom-150\" id=\"community\">\n  <div class=\"container\" style=\"padding-bottom: 50px;\">\n    <div class=\"sm-intro\" style=\"margin-bottom: 40px;\">\n      <h2 style=\"margin-bottom: 20px;\">Community</h2>\n      <p style=\"margin-bottom: 15px;\">\n        Bitcoin LE is built and maintained by a strong network of software development experts and cryptographers.\n      </p>\n      <p style=\"margin-bottom: 15px;\">\n        If you believe in our initiative, you are very welcome to join our development efforts by reporting bugs or provide code fixes for known issues on GitHub.\n      </p>\n      <p style=\"margin-bottom: 15px;\">\n        <strong>Check our documentation</strong> for more details and help us improve it.\n      </p>\n    </div>\n    <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core\" class=\"btn\" target=\"_blank\">Start on GitHub</a>\n    <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/tree/master/doc\" class=\"btn btn-inverse\" target=\"_blank\">Read Documentation</a>\n  </div>\n</section>\n"
+module.exports = "<!-- Development -->\n<section class=\"dev-activ text-center padding-bottom-150\" id=\"community\">\n  <div class=\"container\" style=\"padding-bottom: 50px;\">\n    <div class=\"sm-intro\" style=\"margin-bottom: 40px;\">\n      <h2 style=\"margin-bottom: 20px;\">Community</h2>\n      <p style=\"margin-bottom: 15px;\">\n        Bitcoin LE is built and maintained by a strong network of software development experts and cryptographers.\n      </p>\n      <p style=\"margin-bottom: 15px;\">\n        If you believe in our initiative, you are very welcome to join our development efforts by reporting bugs or provide code fixes for known issues on GitHub.\n      </p>\n      <p style=\"margin-bottom: 15px;\">\n        <strong>Check our documentation</strong> for more details and help us improve it.\n      </p>\n    </div>\n    <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core\" class=\"btn\" target=\"_blank\">Start on GitHub</a>\n    <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/tree/master/doc\" class=\"btn btn-inverse\" target=\"_blank\">Read Documentation</a>\n  </div>\n</section>\n"
 
 /***/ }),
 
@@ -201,7 +204,7 @@ module.exports = "a {\r\n  width: 200px;\r\n}\r\n"
 /***/ "./src/app/ble-downloads/ble-downloads.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Token Distribution -->\n<section class=\"distri drk padding-top-150 padding-bottom-150 \" id=\"downloads\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"\" style=\"width: 100%\">\n        <div class=\"container text-center\">\n          <h1>Download the Future Now </h1>\n          <p>By installing our wallet you will be able to receive and send Bitcoin LE to anyone in the world.</p>\n          <p>Help support Bitcoin LE network and earn extra coins by downloading our miner.</p>\n          <p style=\"height: 1px;\">&nbsp;</p>\n          <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.16.7\" class=\"btn\" target=\"_blank\">Download Miner</a>\n          <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.16.7\" class=\"btn btn-inverse\" target=\"_blank\">Download Wallet</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
+module.exports = "<!-- Token Distribution -->\n<section class=\"distri drk padding-top-150 padding-bottom-150 \" id=\"downloads\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"\" style=\"width: 100%\">\n        <div class=\"container text-center\">\n          <h1>Download the Future Now </h1>\n          <p>By installing our wallet you will be able to receive and send Bitcoin LE to anyone in the world.</p>\n          <p>Help support Bitcoin LE network and earn extra coins by downloading our miner.</p>\n          <p style=\"height: 1px;\">&nbsp;</p>\n          <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.16.8\" class=\"btn\" target=\"_blank\">Download Miner</a>\n          <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.16.8\" class=\"btn btn-inverse\" target=\"_blank\">Download Wallet</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
 
 /***/ }),
 
@@ -241,6 +244,56 @@ var BleDownloadsComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/ble-links/ble-links.component.css":
+/***/ (function(module, exports) {
+
+module.exports = "\r\na {\r\n  width: 250px;\r\n}\r\n"
+
+/***/ }),
+
+/***/ "./src/app/ble-links/ble-links.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Development -->\n<section class=\"dev-activ text-center padding-top-150\" id=\"links\">\n  <div class=\"container\" style=\"padding-bottom: 50px;\">\n    <div class=\"sm-intro\" style=\"margin-bottom: 40px;\">\n      <h2 style=\"margin-bottom: 40px;\">Useful Links</h2>\n      <h3>Exchanges</h3>\n      <a href=\"https://app.stex.com/?ref=19243316\" target=\"_blank\">\n        <img src=\"https://s2.coinmarketcap.com/static/img/exchanges/200x200/245.png\"/>\n      </a>\n\n      <h3 style=\"margin-bottom: 40px;\">Explorers</h3>\n      <a href=\"https://ble.block-explorer.club/ble\" target=\"_blank\">\n        <p style=\"margin-bottom: 10px;\">\n          https://ble.block-explorer.club/ble\n        </p>\n        <img src=\"assets/pradha-explorer.png\" style=\"width: 50%; margin-bottom: 40px;\" />\n      </a>\n\n      <a href=\"https://ble.ovh/\" target=\"_blank\" style=\"margin-bottom: 60px;\">\n        <p style=\"margin-bottom: 10px;\">\n          https://ble.ovh\n        </p>\n        <img src=\"assets/strakatyFERO-explorer.png\" style=\"width: 50%; margin-bottom: 40px;\" />\n      </a>\n\n      <h3 style=\"margin-bottom: 40px;\">Pools</h3>\n      <a href=\"http://blepool.com/pool/BLE/\" target=\"_blank\" style=\"margin-bottom: 60px;\">\n        <p style=\"margin-bottom: 10px;\">\n          http://blepool.com/pool/BLE\n        </p>\n        <img src=\"assets/blepool-pool.png\" style=\"width: 50%; margin-bottom: 40px;\" />\n      </a>\n\n      <h3 style=\"margin-bottom: 40px;\">Chats</h3>\n      <a href=\"https://discord.gg/WysepBf\" target=\"_blank\" style=\"margin-bottom: 60px;\">\n        <p style=\"margin-bottom: 10px;\">\n          https://discord.gg/WysepBf\n        </p>\n        <img src=\"assets/discord.png\" style=\"width: 25%; margin-bottom: 40px;\" />\n      </a>\n    </div>\n  </div>\n</section>\n"
+
+/***/ }),
+
+/***/ "./src/app/ble-links/ble-links.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BleLinksComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var BleLinksComponent = /** @class */ (function () {
+    function BleLinksComponent() {
+    }
+    BleLinksComponent.prototype.ngOnInit = function () {
+    };
+    BleLinksComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-ble-links',
+            template: __webpack_require__("./src/app/ble-links/ble-links.component.html"),
+            styles: [__webpack_require__("./src/app/ble-links/ble-links.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], BleLinksComponent);
+    return BleLinksComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/footer/footer.component.css":
 /***/ (function(module, exports) {
 
@@ -251,7 +304,7 @@ module.exports = "footer {\r\n  background: #0b0c22;\r\n  padding: 0px 0;\r\n  p
 /***/ "./src/app/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Footer -->\n<footer id=\"contact\">\n  <!-- Rights -->\n  <div class=\"rights\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-md-6\">\n          <p>&copy; 2018 Bitcoin LE. All Rights Reserved.</p>\n        </div>\n        <div class=\"col-md-6 text-right\">\n          <a href=\"https://twitter.com/bitcoin_le\" target=\"_blank\">Twitter </a>\n          <a href=\"https://discord.gg/WysepBf\" target=\"_blank\">Discord </a>\n          <a routerLink=\"/legal\" target=\"_blank\">Terms &amp; Conditions </a>\n        </div>\n      </div>\n    </div>\n  </div>\n</footer>\n"
+module.exports = "<!-- Footer -->\n<footer id=\"contact\">\n  <!-- Rights -->\n  <div class=\"rights\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-md-6\">\n          <p>&copy; 2019 Bitcoin LE. All Rights Reserved.</p>\n        </div>\n        <div class=\"col-md-6 text-right\">\n          <a href=\"https://twitter.com/bitcoin_le\" target=\"_blank\">Twitter </a>\n          <a href=\"https://discord.gg/WysepBf\" target=\"_blank\">Discord </a>\n          <a routerLink=\"/legal\" target=\"_blank\">Terms &amp; Conditions </a>\n        </div>\n      </div>\n    </div>\n  </div>\n</footer>\n"
 
 /***/ }),
 
@@ -301,7 +354,7 @@ module.exports = "#wrap {\r\n    position: relative;\r\n    width: 100%;\r\n    
 /***/ "./src/app/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- header -->\r\n<div id=\"undefined-sticky-wrapper\" class=\"sticky-wrapper\" style=\"height: 81px;\">\r\n  <header class=\"sticky\" style=\"\">\r\n    <div class=\"container\">\r\n      <!-- Logo -->\r\n      <div class=\"logo\">\r\n        <a><img class=\"img-responsive\" src=\"assets/logo.png\" alt=\"\"></a>\r\n        <span style=\"float: right; color: white; font-size: 36px; margin-left: 10px; margin-top: 2px;\">Bitcoin LE</span>\r\n      </div>\r\n      <nav class=\"navbar ownmenu navbar-expand-lg\">\r\n        <button class=\"navbar-toggler collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n          <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n          <ul class=\"nav\">\r\n            <li class=\"scroll\">\r\n              <a onclick=\"document.getElementById('hme').scrollIntoView({behavior: 'smooth'})\">Home</a>\r\n            </li>\r\n            <li class=\"scroll\">\r\n              <a onclick=\"document.getElementById('about').scrollIntoView({behavior: 'smooth'})\">Overview</a>\r\n            </li>\r\n            <li class=\"scroll\">\r\n              <a  onclick=\"document.getElementById('downloads').scrollIntoView({behavior: 'smooth'})\">Downloads</a>\r\n            </li>\r\n            <li class=\"scroll\">\r\n              <a onclick=\"document.getElementById('community').scrollIntoView({behavior: 'smooth'})\">Community</a>\r\n            </li>\r\n          </ul>\r\n        </div>\r\n      </nav>\r\n    </div>\r\n    <div class=\"clearfix\"></div>\r\n  </header>\r\n</div>\r\n"
+module.exports = "<!-- header -->\r\n<div id=\"undefined-sticky-wrapper\" class=\"sticky-wrapper\" style=\"height: 81px;\">\r\n  <header class=\"sticky\" style=\"\">\r\n    <div class=\"container\">\r\n      <!-- Logo -->\r\n      <div class=\"logo\">\r\n        <a><img class=\"img-responsive\" src=\"assets/logo.png\" alt=\"\"></a>\r\n        <span style=\"float: right; color: white; font-size: 36px; margin-left: 10px; margin-top: 2px;\">Bitcoin LE</span>\r\n      </div>\r\n      <nav class=\"navbar ownmenu navbar-expand-lg\">\r\n        <button class=\"navbar-toggler collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n          <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n          <ul class=\"nav\">\r\n            <li class=\"scroll\">\r\n              <a onclick=\"document.getElementById('hme').scrollIntoView({behavior: 'smooth'})\">Home</a>\r\n            </li>\r\n            <li class=\"scroll\">\r\n              <a onclick=\"document.getElementById('about').scrollIntoView({behavior: 'smooth'})\">Overview</a>\r\n            </li>\r\n            <li class=\"scroll\">\r\n              <a  onclick=\"document.getElementById('downloads').scrollIntoView({behavior: 'smooth'})\">Downloads</a>\r\n            </li>\r\n            <li class=\"scroll\">\r\n              <a  onclick=\"document.getElementById('links').scrollIntoView({behavior: 'smooth'})\">Links</a>\r\n            </li>\r\n            <li class=\"scroll\">\r\n              <a onclick=\"document.getElementById('community').scrollIntoView({behavior: 'smooth'})\">Community</a>\r\n            </li>\r\n          </ul>\r\n        </div>\r\n      </nav>\r\n    </div>\r\n    <div class=\"clearfix\"></div>\r\n  </header>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -401,7 +454,7 @@ module.exports = "#particles-js {\r\n  width: 100%;\r\n  height: 100%;\r\n  back
 /***/ "./src/app/hero-banner/hero-banner.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- HOME MAIN  -->\n<section class=\"simple-head\" data-stellar-background-ratio=\"0.5\" id=\"hme\" style=\"background: #0b0c22;\">\n  <!-- Particles -->\n  <div id=\"particles-js\">\n    <!--<particles [params]=\"myParams\" [style]=\"myStyle\" [width]=\"width\" [height]=\"height\"></particles>-->\n    <canvas class=\"particles-js-canvas-el\" width=\"1903\" height=\"952\" style=\"width: 100%; height: 100%;\"></canvas>\n  </div>\n  <div class=\"position-center-center\">\n    <div class=\"container text-center\">\n      <h1>The first low energy Bitcoin </h1>\n      <p>Bitcoin LE is the world's first Proof-of-Work and low energy cryptocurrency.</p>\n      <p>Bitcoin LE inherits from Bitcoin and adds a revolutionary layer aimed at reducing its energy footprint.</p>\n      <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/blob/master/whitepaper/README.md\" class=\"btn\" target=\"_blank\">White Paper</a>\n      <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.16.7\" class=\"btn btn-inverse\" target=\"_blank\">Download</a>\n    </div>\n  </div>\n</section>\n"
+module.exports = "<!-- HOME MAIN  -->\n<section class=\"simple-head\" data-stellar-background-ratio=\"0.5\" id=\"hme\" style=\"background: #0b0c22;\">\n  <!-- Particles -->\n  <div id=\"particles-js\">\n    <!--<particles [params]=\"myParams\" [style]=\"myStyle\" [width]=\"width\" [height]=\"height\"></particles>-->\n    <canvas class=\"particles-js-canvas-el\" width=\"1903\" height=\"952\" style=\"width: 100%; height: 100%;\"></canvas>\n  </div>\n  <div class=\"position-center-center\">\n    <div class=\"container text-center\">\n      <h1>The first low energy Bitcoin </h1>\n      <p>Bitcoin LE is the world's first Proof-of-Work and low energy cryptocurrency.</p>\n      <p>Bitcoin LE inherits from Bitcoin and adds a revolutionary layer aimed at reducing its energy footprint.</p>\n      <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/blob/master/whitepaper/README.md\" class=\"btn\" target=\"_blank\">White Paper</a>\n      <a href=\"https://github.com/Bitcoin-LE/bitcoinle-core/releases/tag/0.16.8\" class=\"btn btn-inverse\" target=\"_blank\">Download</a>\n    </div>\n  </div>\n</section>\n"
 
 /***/ }),
 
@@ -566,7 +619,7 @@ module.exports = "@media (max-width: 768px) {\r\n  #wrap {\r\n    /* padding-rig
 /***/ "./src/app/page-landing/page-landing.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"wrap\">\n  <app-header></app-header>\n  <app-hero-banner></app-hero-banner>\n  <!-- Content -->\n  <div id=\"content\" #anchorhome>\n    <app-why-ble></app-why-ble>\n    <app-ble-downloads></app-ble-downloads>\n    <app-ble-community></app-ble-community>\n  </div>\n  <app-footer></app-footer>\n</div>\n"
+module.exports = "<div id=\"wrap\">\n  <app-header></app-header>\n  <app-hero-banner></app-hero-banner>\n  <!-- Content -->\n  <div id=\"content\" #anchorhome>\n    <app-why-ble></app-why-ble>\n    <app-ble-downloads></app-ble-downloads>\n    <app-ble-links></app-ble-links>\n    <app-ble-community></app-ble-community>\n  </div>\n  <app-footer></app-footer>\n</div>\n"
 
 /***/ }),
 
